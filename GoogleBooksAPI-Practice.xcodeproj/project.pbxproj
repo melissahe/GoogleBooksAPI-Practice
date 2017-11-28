@@ -12,6 +12,12 @@
 		81039BBA1FCDC27A00588D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81039BB81FCDC27A00588D23 /* Main.storyboard */; };
 		81039BBC1FCDC27A00588D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81039BBB1FCDC27A00588D23 /* Assets.xcassets */; };
 		81039BBF1FCDC27A00588D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81039BBD1FCDC27A00588D23 /* LaunchScreen.storyboard */; };
+		81039BC71FCDC44900588D23 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81039BC61FCDC44900588D23 /* Book.swift */; };
+		81039BC91FCDC57C00588D23 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81039BC81FCDC57C00588D23 /* BooksViewController.swift */; };
+		81039BCB1FCDC76300588D23 /* BookAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81039BCA1FCDC76300588D23 /* BookAPIClient.swift */; };
+		81039BCD1FCDCF3000588D23 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81039BCC1FCDCF3000588D23 /* AppError.swift */; };
+		81039BCF1FCDD42B00588D23 /* ImageAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81039BCE1FCDD42B00588D23 /* ImageAPIClient.swift */; };
+		813DEE521FCDDC36007FE62A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813DEE511FCDDC36007FE62A /* BookDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		81039BBB1FCDC27A00588D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81039BBE1FCDC27A00588D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81039BC01FCDC27A00588D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81039BC61FCDC44900588D23 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		81039BC81FCDC57C00588D23 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		81039BCA1FCDC76300588D23 /* BookAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAPIClient.swift; sourceTree = "<group>"; };
+		81039BCC1FCDCF3000588D23 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		81039BCE1FCDD42B00588D23 /* ImageAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIClient.swift; sourceTree = "<group>"; };
+		813DEE511FCDDC36007FE62A /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				81039BB41FCDC27A00588D23 /* AppDelegate.swift */,
 				81039BB61FCDC27A00588D23 /* ViewController.swift */,
 				81039BB81FCDC27A00588D23 /* Main.storyboard */,
+				81039BC61FCDC44900588D23 /* Book.swift */,
+				81039BCA1FCDC76300588D23 /* BookAPIClient.swift */,
+				81039BCC1FCDCF3000588D23 /* AppError.swift */,
+				81039BC81FCDC57C00588D23 /* BooksViewController.swift */,
+				813DEE511FCDDC36007FE62A /* BookDetailViewController.swift */,
+				81039BCE1FCDD42B00588D23 /* ImageAPIClient.swift */,
 				81039BBB1FCDC27A00588D23 /* Assets.xcassets */,
 				81039BBD1FCDC27A00588D23 /* LaunchScreen.storyboard */,
 				81039BC01FCDC27A00588D23 /* Info.plist */,
@@ -137,7 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81039BB71FCDC27A00588D23 /* ViewController.swift in Sources */,
+				81039BC91FCDC57C00588D23 /* BooksViewController.swift in Sources */,
+				81039BCD1FCDCF3000588D23 /* AppError.swift in Sources */,
+				81039BCF1FCDD42B00588D23 /* ImageAPIClient.swift in Sources */,
 				81039BB51FCDC27A00588D23 /* AppDelegate.swift in Sources */,
+				81039BC71FCDC44900588D23 /* Book.swift in Sources */,
+				813DEE521FCDDC36007FE62A /* BookDetailViewController.swift in Sources */,
+				81039BCB1FCDC76300588D23 /* BookAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
